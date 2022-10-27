@@ -33,7 +33,7 @@ function About(){
                         <div className="uk-text-center uk-text-middle">
                             <a uk-icon="icon: github-alt ; ratio: 1.5" className="contact-icon contact-link-icon" href="https://github.com/mikejmarin25"  target="_blank"></a>
                             <a uk-icon="icon: mail ; ratio: 1.5" className="contact-icon contact-link-icon" href="mailto:mikejmarin25@gmail.com"></a>
-                            <a uk-icon="icon: linkedin ; ratio: 1.5" className="contact-icon contact-link-icon" href="https://www.linkedin.com/in/mikejmarin/" target="_blank"></a>
+                            <a uk-icon="icon: linkedin ; ratio: 1.5" className="contact-icon contact-link-icon" href="https://www.linkedin.com/in/mikemarin25" target="_blank"></a>
                         </div>
                     </div>
                 </div>

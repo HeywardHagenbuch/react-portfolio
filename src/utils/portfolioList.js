@@ -5,6 +5,7 @@ import teamBuilderImg from "../assets/images/portfolio-images/teamBuilder.png";
 import devConnectImg from "../assets/images/portfolio-images/devConnect.png";
 import jateImg from "../assets/images/portfolio-images/Jate.png";
 import workDayImg from "../assets/images/portfolio-images/workDayScheduler.png";
+import weatherDashImg from "../assets/images/portfolio-images/weatherDash.png";
 
 
 function PortfolioList(name, description, img, appLink, githubLink) {
@@ -14,6 +15,14 @@ function PortfolioList(name, description, img, appLink, githubLink) {
     this.appLink = appLink;
     this.githubLink = githubLink;
 };
+
+const weatherDashboard = new PortfolioList(
+    "Weather Dashboard",
+    "Weather dashboard application that gives the user live weather updates based on the user's location, allows the user to search by city and saves the stored searches. The application also provides a 5-day forecast so the user can plan accordingly.",
+    weatherDashImg,
+    "https://mikejmarin25.github.io/Weather-Dashboard-Ch-06/index.html",
+    "https://github.com/mikejmarin25/Weather-Dashboard-Ch-06/"
+);
 
 const textEditor = new PortfolioList(
     "Progressive Web Application - Text editor",
@@ -66,6 +75,6 @@ const workDayScheduler = new PortfolioList(
 
 
 
-let portfolioList = [textEditor, employeeManager, noteTaker, devConnect, employeeDirectory, workDayScheduler];
+let portfolioList = [weatherDashboard, textEditor, employeeManager, noteTaker, devConnect, employeeDirectory, workDayScheduler];
 
 export default portfolioList;

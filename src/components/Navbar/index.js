@@ -2,7 +2,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-/*import Resume from "../../assets/resume/DanielTanoeihusada2.pdf"*/
+import Resume from "../../assets/resume/Maikol Marin Resume.doc.pdf"
 
 function Background(props){
     return(
@@ -13,7 +13,7 @@ function Background(props){
                         <ul className="uk-navbar-nav uk-visible@m">
                             <li><Link to = "/about">About Me</Link></li>
                             <li><Link to = "/portfolio">Portfolio</Link></li>
-                            {/*<li><a href = {Resume} target = "_blank">Resume</a></li>*/}
+                            <li><a href = {Resume} target = "_blank">Resume</a></li>
                             <li><Link to = "/contact">Contact</Link></li>
                         </ul>
                         <a className="hamburger-menu uk-hidden@m" href="#mobileNav" uk-toggle="target: #mobileNav"><span className="menu-icon"uk-icon="icon: menu; ratio: 1.8"></span></a>

@@ -4,7 +4,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-/*import Resume from "../../assets/resume/DanielTanoeihusada2.pdf"*/
+import Resume from "../../assets/resume/Maikol Marin Resume.doc.pdf";
 
 
 function MobileNavbar(){
@@ -15,7 +15,7 @@ function MobileNavbar(){
                 <ul className="mobile-nav-list uk-list uk-text-center">
                     <li className = "mobile-nav-item" uk-toggle="target:#mobileNav"><Link to = "/about">About Me</Link></li>
                     <li className = "mobile-nav-item" uk-toggle="target:#mobileNav"><Link to = "/portfolio">Portfolio</Link></li>
-                    {/*<li className = "mobile-nav-item" uk-toggle="target:#mobileNav"><a href = {Resume} target = "_blank">Resume</a></li>*/}
+                    <li className = "mobile-nav-item" uk-toggle="target:#mobileNav"><a href = {Resume} target = "_blank">Resume</a></li>
                     <li className = "mobile-nav-item" uk-toggle="target:#mobileNav"><Link to = "/contact">Contact</Link></li>
                 </ul>
             </div>
